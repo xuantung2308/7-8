@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <title>About</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" type="text/css" href="style.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     </head>
+
+     <style>
+          .header {
+               overflow: hidden;
+               background-color: #f1f1f1;
+               padding: 5px 15px;
+          }
+          .header-right{
+               float: right;
+          }
+          @media only screen and (max-width: 500px) {
+               .header a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+               }
+               .header-right {
+                    float: none;
+                    }
+               }
+
+          .header a {
+               float: left;
+               color: black;
+               text-align: center;
+               padding: 12px;
+               text-decoration: none;
+               font-size: 18px;
+               line-height: 25px;
+               border-radius: 4px;
+          }
+
+          .topnav {
+               overflow: hidden;
+               background-color: #55acee;
+               width: 100%;
+          }
+
+          .topnav a {
+               float: left;
+               display: block;
+               color: #f2f2f2;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+               font-size: 17px;
+               width: 16,67%;	
+               text-align: center;
+          }
+
+          .topnav a:hover {
+               background-color: #ffffff;
+               color: black;
+               border-bottom: 2px solid #55acee;
+          }
+
+          .topnav .nav_icon {
+               display: none;
+          }
+
+          @media screen and (max-width: 600px) {
+               .topnav a:not(:first-child) {display: none;}
+               .topnav a.nav_icon {
+                    float: right;
+                    display: block;
+               }
+          }
+
+          @media screen and (max-width: 600px) {
+               .topnav.responsive {position: relative;}
+               .topnav.responsive .nav_icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+               }
+               .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+               }
+          }
+     </style>
+
+     <script>
+          function myFunction() {
+               var x = document.getElementById("myTopnav");
+               if (x.className === "topnav") {
+                    x.className += "responsive";
+               } else {
+                    x.className = "topnav";
+                    }
+          }
+     </script>
+
+          <!--<header style="width: 100%;">
+                    <div class="header-right">
+                         <img src="user-icon.jpg" style="width: 50px; height: 50px;position: relative; top: +10px">
+                    </div>
+               </div> 
+          </header>
+
+          <body>
+               <div class="navbar navbar-expand-sm bg-light justify-content-center" style="width: 60%;font-size: 20px; margin: auto;">
+                    <ul class="nav nav-pills nav-justified">
+                         <li class="nav-item">
+                              <a class="nav-link" href="home.php">Trang chủ</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="about.php">Về BMI(WHO)</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="history.php">Lịch sử </a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#Excel">Xuất Excel</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                   <i class="fa fa-bars"></i>
+                                 </a>
+                         </li>
+                    </ul>
+               </div>
+
+               <div class="topnav" id="myTopnav">
+                    <a href="home.php">Trang chủ</a>
+                    <a href="about.php">Về chỉ số BMI (WHO)</a>
+                    <a href="history.php">Lịch sử</a>
+                    <a href="excel.php">Xuất Excel</a>
+                    <a href="javascript:void(0);" class="nav_icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+               </div>-->
+
+          </body>
+    
